@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>images<h2>
         <div id="main">
              <div v-bind:key="i" v-for="i in set" >
                  <img :src="i.url"  width="100px" height="60px" />
